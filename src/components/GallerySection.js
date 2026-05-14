@@ -1,35 +1,23 @@
 import React, { useState, useEffect } from 'react';
+import img1 from '../assets/s2gwsrs2gwsrs2gw (1).png';
+import img5 from '../assets/s2gwsrs2gwsrs2gw (5).png';
+import img6 from '../assets/s2gwsrs2gwsrs2gw (6).png';
 
 const slides = [
   {
-    image: 'https://images.pexels.com/photos/30685770/pexels-photo-30685770.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: img1,
     caption: 'Together Forever',
-    alt: 'Traditional South Indian wedding couple embracing in Tamil Nadu',
+    alt: 'Wedding photo 1',
   },
   {
-    image: 'https://images.pexels.com/photos/30171219/pexels-photo-30171219.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: img5,
     caption: 'Sacred Ceremony',
-    alt: 'Traditional Indian wedding ceremony portrait with bride and groom',
+    alt: 'Wedding photo 2',
   },
   {
-    image: 'https://images.pexels.com/photos/19733687/pexels-photo-19733687.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: img6,
     caption: 'Eternal Bond',
-    alt: 'Portrait of Indian wedding couple in traditional attire',
-  },
-  {
-    image: 'https://images.pexels.com/photos/19230329/pexels-photo-19230329.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Celebration of Love',
-    alt: 'Young couple at a traditional Indian wedding celebration',
-  },
-  {
-    image: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Beautiful Beginnings',
-    alt: 'Indian bride in traditional red and gold wedding saree',
-  },
-  {
-    image: 'https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Blessed Union',
-    alt: 'Traditional Indian wedding couple with garlands and jewelry',
+    alt: 'Wedding photo 3',
   },
 ];
 
@@ -149,10 +137,6 @@ export default function GallerySection() {
         ))}
       </div>
 
-      {/* Photo credit */}
-      <p className="text-center text-text-muted/50 text-xs mt-4 font-body">
-        Photos courtesy of Pexels
-      </p>
     </section>
   );
 }
